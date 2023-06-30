@@ -17,7 +17,17 @@ class Header extends HTMLElement {
         <div class="collapsible__content collapsible--expanded">
             <ul class="list nav__list">
                 <li class="nav__item"><a href="../index.html">HOME</a></li>
-                <li class="nav__item"><a href="#">SERVICES</a></li>
+                    <div class="dropmenu">
+                        <a class="list nav__item dropmenu" href="#">SERVICES</a>
+                            <ul class="dropcontent">
+                                <a href="#">DESIGN</a>
+                                <a href="#">INDUSTRIAL BUILDINGS</a>
+                                <a href="#">OFFICE BUILDINGS</a>
+                                <a href="#">OFFICE BUILDOUTS</a>
+                                <a href="#">RETAIL / STRIP CENTERS</a>
+                                <a href="#">RESIDENTIAL PROJECTS</a>
+                            </ul>
+                    </div>    
                 <li class="nav__item"><a href="#">PORTFOLIO</a></li>
                 <li class="nav__item"><a href="#">ABOUT</a></li>
                 <li class="nav__item"><a href="#">CONTACT US</a></li>
@@ -45,10 +55,10 @@ class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
         `
-    <footer class="block block--white footer">
+    <!--<footer class="block block--white footer">
         <div class="container grid">
             <section>
-                <article class="footer-links">
+                <div class="footer-links">
                     <li><a href="../content/services-features.html">SERVICES<a></li>
                     <li><a href="../content/services-features.html">PORTFOLIO<a></li>
                     <li><a href="../content/myportfolio.html">ABOUT<a></li>
@@ -67,13 +77,52 @@ class Footer extends HTMLElement {
                     </div>
                 </div>
                 <div class="copyright">
-                    <p>&copy Copyright 2023</p>
+                    <p>&copy Copyright 2023 Eclipse Construction Group</p>
                 </div>
                 
-                </article>
+                </div>
             </section>
         </div>
+    </footer>--!>
+
+    <footer class="footer2">
+        <div class="container2">
+            <div class="footer-row">
+                    <div class="footer-col">&nbsp;</div>
+                    <div class="footer-col">
+                        <h4>QUICK LINKS</h4>
+                        <ul class="new--footer-links">
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="#">PORTFOLIO</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#">CAREERS</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>FOLLOW US ON SOCIAL MEDIA</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col-3">
+                        <h4 class="contact">CONTACT US</h4>
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <p class="contact-number">407-555-5555</p>
+                    </div>       
+                    <div class="footer-col">&nbsp;</div>
+            </div>s
+            <div class="footer__brand">
+                <p>&copy &nbsp;Copyright 2023 Eclipse Construction Group</p>
+            </div>
+        </div>
     </footer>
+
     
     `
 
