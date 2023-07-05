@@ -138,6 +138,20 @@ p {
 /*=================HEADER===================*/
 
 /*=================DROPDOWN MENU===================*/
+@media screen and (max-width: 440px) {
+  .dropmenu {
+    margin-top: 0.95rem;
+    margin-left: 5.17rem;
+    padding-right: 1rem;
+    width: 40px;
+    height: 40px;
+    flex-wrap: wrap;
+  }
+
+  .dropcontent {
+    display: none;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .dropmenu {
@@ -186,6 +200,84 @@ p {
 
 /*=================FOOTER===================*/
 
+@media screen and (max-width: 450px) {
+  .footer2 {
+    border-top: 1px solid #afafaf54;
+    background-color: #ffff;
+    padding: 7px 0;
+    width: 101%;
+  }
+
+  .container2 {
+    max-width: 450px;
+    background-color: none;
+    margin: auto;
+    justify-items: center;
+  }
+
+  .footer__section {
+    display: block;
+  }
+
+  .footer2 h4 {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer__brand p {
+    margin-top: 20rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .footer-col {
+    margin: 10px 0 10px 0;
+  }
+
+  .new--footer-links {
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 2rem;
+  }
+
+  .social-links i {
+    font-size: 2.5rem;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    margin: 10px 1px 10px 1px;
+    padding-top: 0.6rem;
+    padding-right: -10px;
+  }
+
+  .social-links > a > i {
+    height: 60px;
+    width: 60px;
+  }
+
+  .contact-icon {
+    font-size: 3rem;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0px 10px 210px;
+    padding-top: 0.5rem;
+  }
+
+  h4.contact {
+    margin-left: 30px;
+  }
+
+  .contact-number {
+    margin: 2px 0 0 160px;
+    font-size: 2rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   .footer2 {
     border-top: 1px solid #afafaf54;
@@ -657,5 +749,3 @@ p {
   font-weight: 600;
   color: var(--color-headings);
 }
-
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/

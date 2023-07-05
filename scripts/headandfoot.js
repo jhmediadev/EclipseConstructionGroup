@@ -88,7 +88,9 @@ class Footer extends HTMLElement {
     <footer class="footer2">
         <div class="container2">
             <div class="footer-row">
-                    <div class="footer-col">&nbsp;</div>
+                    <div class="footer-col">
+                        &nbsp;
+                    </div>
                     <div class="footer-col">
                         <h4>QUICK LINKS</h4>
                         <ul class="new--footer-links">
@@ -115,7 +117,9 @@ class Footer extends HTMLElement {
                         </div>
                         <p class="contact-number">407-555-5555</p>
                     </div>       
-                    <div class="footer-col">&nbsp;</div>
+                    <div class="footer-col">
+                        &nbsp;
+                    </div>
             </div>s
             <div class="footer__brand">
                 <p>&copy &nbsp;Copyright 2023 Eclipse Construction Group</p>
