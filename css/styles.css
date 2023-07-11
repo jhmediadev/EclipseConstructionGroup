@@ -200,7 +200,7 @@ p {
 
 /*=================FOOTER===================*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 350px) {
   .container2 {
     margin: 0 1rem 0 1rem;
   }
