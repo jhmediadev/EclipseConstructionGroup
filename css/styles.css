@@ -83,6 +83,13 @@ p {
   width: 100%;
 }
 
+@media screen and (max-width: 350px) {
+  .container1 {
+    margin: 0 5px 0 5px;
+    width: 100%;
+  }
+}
+
 .block {
   padding: 4rem 0.05rem;
 }
@@ -201,10 +208,6 @@ p {
 /*=================FOOTER===================*/
 
 @media screen and (max-width: 350px) {
-  .container2 {
-    margin: 0 1rem 0 1rem;
-  }
-
   .footer2 {
     border-top: 1px solid #afafaf54;
     background-color: #ffff;
@@ -224,14 +227,14 @@ p {
   }
 
   .footer__brand p {
-    margin-top: 20rem;
-    margin-left: 3.5rem;
+    margin-top: 80px;
+    margin-left: 10px;
     text-align: center;
     font-size: 1.5rem;
   }
 
   .footer-col {
-    margin: 10px 0 10px 0;
+    margin: 10px 15px 10px 0;
   }
 
   .new--footer-links {
@@ -240,7 +243,8 @@ p {
     font-size: 2rem;
     text-decoration: none;
     list-style-type: none;
-    margin-top: 2rem;
+    margin-top: 20px;
+    margin-right: 10px;
   }
 
   .social-links i {
@@ -248,9 +252,9 @@ p {
     text-align: center;
     display: inline-block;
     position: relative;
-    left: 30px;
+    left: 25px;
     margin: 10px 1px 10px 1px;
-    padding-top: 0.6rem;
+    padding-top: 1px;
     padding-right: -10px;
   }
 
@@ -268,7 +272,7 @@ p {
   }
 
   h4.contact {
-    margin-left: 30px;
+    margin-left: 6px;
   }
 
   .contact-number {

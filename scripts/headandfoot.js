@@ -120,7 +120,7 @@ class Footer extends HTMLElement {
                     <div class="footer-col">
                         &nbsp;
                     </div>
-            </div>s
+            </div>
             <div class="footer__brand">
                 <p>&copy &nbsp;Copyright 2023 Eclipse Construction Group</p>
             </div>
