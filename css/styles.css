@@ -207,7 +207,7 @@ p {
 
 /*=================FOOTER===================*/
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .footer2 {
     border-top: 1px solid #afafaf54;
     background-color: #ffff;
