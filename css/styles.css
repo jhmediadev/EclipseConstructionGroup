@@ -267,7 +267,7 @@ p {
     font-size: 3rem;
     text-align: center;
     display: inline-block;
-    margin: 10px 0px 10px 180px;
+    margin: 10px 0px 10px 175px;
     padding-top: 0.5rem;
   }
 
@@ -276,7 +276,7 @@ p {
   }
 
   .contact-number {
-    margin: 2px 0 0 130px;
+    margin: 2px 0 0 120px;
     font-size: 2rem;
   }
 }
