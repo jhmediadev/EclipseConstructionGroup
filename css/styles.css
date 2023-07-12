@@ -620,6 +620,13 @@ p {
     text-decoration: none;
   }
 
+  .nav__item > a {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+
   .nav__item {
     padding: 1.8rem 0.5rem;
     margin-right: 8rem;
