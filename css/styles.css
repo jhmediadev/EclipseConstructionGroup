@@ -243,8 +243,11 @@ p {
     font-size: 2rem;
     text-decoration: none;
     list-style-type: none;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 20px 20px 50px 0;
+  }
+
+  .new--footer-links li {
+    margin-bottom: 10px;
   }
 
   .social-links i {
