@@ -90,6 +90,13 @@ p {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .container1 {
+    margin: 0 5px 0 5px;
+    width: 100%;
+  }
+}
+
 .block {
   padding: 4rem 0.05rem;
 }
@@ -166,10 +173,6 @@ p {
     position: relative;
     display: inline-block;
   }
-
-  /* .dropmenu :hover {
-    border-bottom: 1px solid red;
-  } */
 
   .dropcontent {
     display: none;
