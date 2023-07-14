@@ -304,7 +304,7 @@ p {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
   .footer2 {
     border-top: 1px solid #afafaf54;
