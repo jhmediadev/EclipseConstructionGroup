@@ -305,7 +305,6 @@ p {
 }
 
 @media screen and (max-width: 900px) {
-
   .footer2 {
     border-top: 1px solid #afafaf54;
     background-color: #ffff;
@@ -411,10 +410,6 @@ p {
     font-size: 2rem;
   }
 }
-
-
-}
-
 
 @media screen and (min-width: 1024px) {
   .footer2 {
