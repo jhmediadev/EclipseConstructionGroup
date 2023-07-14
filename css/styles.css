@@ -168,6 +168,22 @@ p {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .dropmenu {
+    font-size: 2rem;
+    margin-top: 0.95rem;
+    margin-left: 5.17rem;
+    padding-right: 1rem;
+    width: 40px;
+    height: 40px;
+    flex-wrap: wrap;
+  }
+
+  .dropcontent {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .dropmenu {
     position: relative;
@@ -287,6 +303,119 @@ p {
     font-size: 2rem;
   }
 }
+
+@media screen and (max-width: 800px) {
+
+  .footer2 {
+    border-top: 1px solid #afafaf54;
+    background-color: #ffff;
+    padding: 7px 0;
+    width: 101%;
+  }
+
+  .container2 {
+    max-width: 1970px;
+    background-color: none;
+    margin: auto;
+    justify-items: center;
+  }
+
+  .footer__section {
+    display: inline-block;
+  }
+
+  .footer2 h4 {
+    margin-left: 3.2rem;
+  }
+
+  .footer-row {
+    display: flex;
+  }
+
+  .footer-col {
+    width: 25%;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+
+  .footer-col-3 {
+    width: 25%;
+    padding: 0;
+    margin: 0 2px 0 20px;
+  }
+
+  .footer__brand p {
+    margin-top: 20rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .new--footer-links {
+    font-size: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 2rem;
+  }
+
+  .new--footer-links li {
+    margin-top: 1rem;
+  }
+  .new--footer-links a {
+    color: var(--color-background);
+    margin-left: -0.5rem;
+  }
+
+  .new--footer-links a:hover {
+    text-decoration: none;
+    color: var(--color-background);
+    border-bottom: 1px solid var(--color-background);
+  }
+
+  .social-links a {
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 0.5px solid #6998f046;
+    font-size: 2.5rem;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 15px 10px 15px;
+    padding-top: 0.6rem;
+  }
+
+  .social-links a:hover {
+    background-color: #85b6ffc9;
+    transition: 0.5s;
+  }
+
+  .contact-icon {
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 0.5px solid #6998f046;
+    font-size: 3rem;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 15px 10px 110px;
+    padding-top: 0.5rem;
+  }
+
+  h4.contact {
+    margin-left: 7.5rem;
+  }
+
+  .contact-number {
+    margin: 2px 0 0 70px;
+    font-size: 2rem;
+  }
+}
+
+
+}
+
+
 @media screen and (min-width: 1024px) {
   .footer2 {
     border-top: 1px solid #afafaf54;
