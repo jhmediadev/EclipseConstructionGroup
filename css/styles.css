@@ -834,7 +834,7 @@ p {
 
 .sig-heading {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 10rem;
   font-weight: 600;
   color: var(--color-headings);
 }
