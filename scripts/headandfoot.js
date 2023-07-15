@@ -69,7 +69,7 @@ class Footer extends HTMLElement {
                     <img id="backtotop"src="../images/BacktoTop.png">
                 </div>
                 <div class="connect_withme">
-                    <p>FOLLOW US ON SOCIAL MEDIA</p>
+                    <p class"follow_us">FOLLOW US ON SOCIAL MEDIA</p>
                     <div class="icons">
                         <a href="https://www.facebook.com/" target="_blank"><img src="/images/Facebook.png" alt="" width="40"></a>
                         <a href="https://www.instagram.com/" target="_blank"><img src="/images/Instatram.png" alt="" width="40"></a>
@@ -102,7 +102,7 @@ class Footer extends HTMLElement {
                         </ul>
                     </div>
                     <div class="footer-col">
-                        <h4>FOLLOW US ON SOCIAL MEDIA</h4>
+                        <h4 class="follow_us">FOLLOW US ON SOCIAL MEDIA</h4>
                         <div class="social-links">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
