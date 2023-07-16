@@ -55,40 +55,10 @@ class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
         `
-    <!--<footer class="block block--white footer">
-        <div class="container grid">
-            <section>
-                <div class="footer-links">
-                    <li><a href="../content/services-features.html">SERVICES<a></li>
-                    <li><a href="../content/services-features.html">PORTFOLIO<a></li>
-                    <li><a href="../content/myportfolio.html">ABOUT<a></li>
-                    <li><a href="../content/serviceform.html">CONTACT<a></li>
-                    <li><a href="../content/mybio.html">CAREERS<a></li>
-                
-                <div>
-                    <img id="backtotop"src="../images/BacktoTop.png">
-                </div>
-                <div class="connect_withme">
-                    <p class"follow_us">FOLLOW US ON SOCIAL MEDIA</p>
-                    <div class="icons">
-                        <a href="https://www.facebook.com/" target="_blank"><img src="/images/Facebook.png" alt="" width="40"></a>
-                        <a href="https://www.instagram.com/" target="_blank"><img src="/images/Instatram.png" alt="" width="40"></a>
-                        <a href="https://twitter.com/home" target="_blank"><img src="/images/Twitter.png" alt="" width="40"></a>
-                    </div>
-                </div>
-                <div class="copyright">
-                    <p>&copy Copyright 2023 Eclipse Construction Group</p>
-                </div>
-                
-                </div>
-            </section>
-        </div>
-    </footer>--!>
-
     <footer class="footer2">
         <div class="container2">
             <div class="footer-row">
-                    <div class="footer-col">
+                    <div class="footer-col ipad-left">
                         &nbsp;
                     </div>
                     <div class="footer-col">
@@ -101,7 +71,7 @@ class Footer extends HTMLElement {
                             <li><a href="#">CAREERS</a></li>
                         </ul>
                     </div>
-                    <div class="footer-col">
+                    <div class="footer-col ipad-soc-col">
                         <h4 class="follow_us">FOLLOW US ON SOCIAL MEDIA</h4>
                         <div class="social-links">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -117,7 +87,7 @@ class Footer extends HTMLElement {
                         </div>
                         <p class="contact-number">407-555-5555</p>
                     </div>       
-                    <div class="footer-col">
+                    <div class="footer-col ipad-right">
                         &nbsp;
                     </div>
             </div>
