@@ -308,7 +308,7 @@ p {
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1300px) {
+@media screen and (min-width: 700px) and (max-width: 1324px) {
   .footer2 {
     border-top: 1px solid #afafaf54;
     background-color: #ffff;
@@ -350,7 +350,7 @@ p {
   }
 
   .ipad-soc-col {
-    width: 30%;
+    width: 50%;
   }
 
   .footer-col-3 {
@@ -427,7 +427,7 @@ p {
   }
 
   div > h4.follow_us {
-    margin-left: 10px;
+    margin-left: 1px;
     text-align: center;
     width: 80%;
   }
@@ -469,7 +469,7 @@ p {
   .footer-col-3 {
     width: 25%;
     padding: 0;
-    margin: 0 2px 0 20px;
+    margin: 0 2px 0 2px;
   }
 
   .footer__brand p {
@@ -508,7 +508,7 @@ p {
     width: 50px;
     text-align: center;
     display: inline-block;
-    margin: 10px 15px 10px 22px;
+    margin: 10px 5px 10px 21px;
     padding-top: 0.6rem;
   }
 
