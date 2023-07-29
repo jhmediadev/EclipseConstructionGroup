@@ -168,7 +168,7 @@ p {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 500px) and (max-width: 800px) {
   .dropmenu {
     font-size: 2rem;
     margin-top: 1rem;
@@ -508,7 +508,7 @@ p {
     width: 50px;
     text-align: center;
     display: inline-block;
-    margin: 10px 5px 10px 21px;
+    margin: 10px 5px 10px 20px;
     padding-top: 0.6rem;
   }
 
