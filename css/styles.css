@@ -168,7 +168,7 @@ p {
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 800px) {
   .dropmenu {
     font-size: 2rem;
     margin-top: 1rem;
@@ -308,7 +308,7 @@ p {
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1324px) {
+@media screen and (min-width: 500px) and (max-width: 1324px) {
   .footer2 {
     border-top: 1px solid #afafaf54;
     background-color: #ffff;
@@ -350,7 +350,7 @@ p {
   }
 
   .ipad-soc-col {
-    width: 50%;
+    width: 30%;
   }
 
   .footer-col-3 {
@@ -427,7 +427,7 @@ p {
   }
 
   div > h4.follow_us {
-    margin-left: 1px;
+    margin-left: 6px;
     text-align: center;
     width: 80%;
   }
