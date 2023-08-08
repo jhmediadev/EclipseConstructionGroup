@@ -538,6 +538,12 @@ p {
     margin: 2px 0 0 70px;
     font-size: 2rem;
   }
+
+  div > h4.follow_us {
+    margin-left: 25px;
+    text-align: center;
+    width: 80%;
+  }
 }
 
 /*=================NAV===================*/
