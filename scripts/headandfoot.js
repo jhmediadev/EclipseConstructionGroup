@@ -80,16 +80,26 @@ class Footer extends HTMLElement {
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="footer-col-3">
-                        <h4 class="contact">CONTACT US</h4>
+                    <!--<div class="footer-col-3">
+                       <h4 class="contact">CONTACT US</h4>
                         <div class="contact-icon">
                             <i class="fa-solid fa-phone"></i>
                         </div>
                         <p class="contact-number">407-555-5555</p>
-                    </div>       
-                    <div class="footer-col ipad-right">
+                        <div class="footer-col ipad-right">
                         &nbsp;
+                        </div>
+                    </div>-->       
+                    <div class="footer-col-4">
+                        &nbsp
                     </div>
+                    <div class="footer-col-5">
+                         <img class="contact" src="../images/ContactUsSnip2.png" height="112" width="120">
+                        </div>       
+                     <div class="footer-col ipad-right">
+                     &nbsp;
+                 </div>
+
             </div>
             <div class="footer__brand">
                 <p>&copy &nbsp;Copyright 2023 Eclipse Construction Group</p>

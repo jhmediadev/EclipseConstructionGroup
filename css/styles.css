@@ -462,15 +462,24 @@ p {
   }
 
   .footer-col {
-    width: 25%;
+    width: 40%;
     padding: 0 10px;
-    margin: 0 10px;
+    /* margin: 0 10px; */
+    margin: 0 0 0 20px;
   }
 
   .footer-col-3 {
-    width: 25%;
+    width: 20%;
     padding: 0;
-    margin: 0 2px 0 2px;
+    margin: 0 2px 0 0px;
+  }
+
+  .footer-col-4 {
+    width: 20%;
+  }
+
+  .footer-col-5 {
+    width: 25%;
   }
 
   .footer__brand p {
